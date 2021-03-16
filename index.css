@@ -1,0 +1,54 @@
+body
+{
+    margin: 0px;
+    font-family: Helvetica Neue;
+}
+
+#header {
+    margin-left: 325px;
+    margin-top: 50px;
+}
+
+img {
+    display:inline-block;
+}
+
+#sloganText{
+    color:white;
+    font-size: 75px;
+    font-weight: 300;
+    
+    width: 375px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#demoImage {
+    margin-left: 75px;
+}
+
+#why {
+    background-color: white;
+    height: 1000px;
+    width: 100%;
+    margin-top: 300px;
+    position: relative;
+}
+
+#clients {
+    background-color: #73DCE8;
+    height: 1000px;
+    width: 100%;
+}
+
+#ourDemo {
+    height: 1000px;
+    width: 100%;
+    background: white;
+}
+
+#contact {
+    background-color: #73DCE8;
+    height: 1000px;
+    width: 100%;
+}

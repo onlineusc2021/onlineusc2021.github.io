@@ -29,7 +29,7 @@ img {
 
 #why {
     background-color: white;
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     margin-top: 15%;
     position: relative;
@@ -65,7 +65,7 @@ img {
 
 #clients {
     background-color: #73DCE8;
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     color: #5E90E3;
     padding: 7.5% 15%;
@@ -85,18 +85,132 @@ img {
 }
 
 .clientRow {
-    margin: 2.5% 0%;
+    margin: 5% 0%;
 }
 
 #ourDemo {
-    height: 100vh;
+    height: 110vh;
     width: 100%;
-    background: white;
-    margin-top: 15%;
+    background: black;
+    color: #73DCE8;
+    padding: 7.5% 15%;
 }
 
-#contact {
-    background-color: #73DCE8;
-    height: 100vh;
+#ourDemoTitle {
     width: 100%;
+    font-size: 75px;
+    
+}
+
+#ourDemoRow {
+    text-align: center;
+}
+
+#seeOurDemoImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a:hover {
+    text-decoration: none;
+}
+#seeOurDemo {
+    color: #73DCE8;
+    border: 1px solid #73DCE8;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: none;
+    width: 580px;
+    height: 150px;
+    font-family: Helvetica,sans-serif;
+    color: white;
+    font-weight: 100;
+    margin-left: calc(50vw - 290px);
+    padding-top: 50px;
+}
+
+.nav-link {
+    color:white !important;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+
+.activelink{
+    border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+
+.nav-margin{
+    margin-right: 50px;
+}
+
+#particles-js{ 
+    z-index: -1;
+    position:absolute; 
+    width: 100%; 
+    height: 100%; 
+    background-color: #63b5cd; 
+    background-image: url(""); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: 50% 50%; 
+}
+
+#footer{
+    width: 100vw;
+    height: 500px;
+    background-color: rgb(0 210 212);
+    margin-top: 0px;
+    font-family: Helvetica Neue;
+    font-weight: 300;
+}
+
+.footerbox {
+    border-top: 4px solid white;
+    padding-top: 15px;
+    width: 250px;
+    height:400px;
+    margin-top: 40px;
+    position:absolute;
+    color:white;
+}
+
+#boxes {
+    width: 1120px;
+    margin-left: calc(50vw - 560px);
+}
+
+#linksdiv{
+    margin-left: 290px;
+}
+
+#linksdiv a {
+    color:white !important;
+}
+
+.footertitles {
+    font-weight: 400;
+}
+
+#aboutdiv{
+    margin-left: 580px;
+}
+
+#socialdiv{
+    margin-left: 870px;
+}
+
+#footerlogo{
+    width: 200px;
+}
+
+#footersocials{
+    width: 180px;
 }

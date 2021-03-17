@@ -5,8 +5,9 @@ body
 }
 
 #header {
-    margin-left: 325px;
-    margin-top: 50px;
+    margin-left: calc(50vw - 375px);
+    margin-top: 5%;
+    display: block;
 }
 
 img {
@@ -17,7 +18,6 @@ img {
     color:white;
     font-size: 75px;
     font-weight: 300;
-    
     width: 375px;
     display: inline-block;
     vertical-align: middle;
@@ -29,26 +29,74 @@ img {
 
 #why {
     background-color: white;
-    height: 1000px;
+    height: 100vh;
     width: 100%;
-    margin-top: 300px;
+    margin-top: 15%;
     position: relative;
+    color: #73DCE8;
+    padding: 0px 15%;
+}
+
+#whyUs {
+    width: 100%;
+    font-size: 75px;
+}
+
+.reason {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    padding-right: 4%;
+}
+
+.reasonNumber {
+    font-size: 150px;
+    text-decoration: underline;
+}
+
+.reasonTitle {
+    font-size: 50px;
+}
+
+.reasonDescription {
+    margin-top: 1%;
+
 }
 
 #clients {
     background-color: #73DCE8;
-    height: 1000px;
+    height: 100vh;
     width: 100%;
+    color: #5E90E3;
+    padding: 7.5% 15%;
+}
+
+#ourClients {
+    width: 100%;
+    font-size: 75px;
+}
+
+.client {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    padding-right: 4%;
+    text-align: center;
+}
+
+.clientRow {
+    margin: 2.5% 0%;
 }
 
 #ourDemo {
-    height: 1000px;
+    height: 100vh;
     width: 100%;
     background: white;
+    margin-top: 15%;
 }
 
 #contact {
     background-color: #73DCE8;
-    height: 1000px;
+    height: 100vh;
     width: 100%;
 }

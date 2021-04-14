@@ -2,6 +2,7 @@ body
 {
     margin: 0px;
     font-family: Helvetica Neue;
+    overflow-x: hidden;
 }
 
 #header {
@@ -213,4 +214,13 @@ a:hover {
 
 #footersocials{
     width: 180px;
+}
+
+.ad {
+    border: 1px solid black;
+    width: 150px;
+    height: 500px;
+    position: absolute;
+    text-align: center;
+    z-index: 99 !important;
 }

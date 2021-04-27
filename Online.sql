@@ -3,7 +3,8 @@ USE LineQueue;
 CREATE TABLE IF NOT EXISTS Queue (
 	userID int,
     park varchar(255),
-    location varchar(255)
+    location varchar(255),
+    timestamp varchar(255)
 );
 
 CREATE TABLE IF NOT EXISTS Users (

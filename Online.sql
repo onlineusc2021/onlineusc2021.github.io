@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS Queue (
     location varchar(255)
 );
 
-CREATE TABLE IF NOT EXISTS UserTable (
+CREATE TABLE IF NOT EXISTS Users (
 	userID int,
     firstname varchar(255),
     lastname varchar(255),
